@@ -11,6 +11,12 @@
 		779BA783299F8753002961A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA782299F8753002961A4 /* ContentView.swift */; };
 		779BA785299F8755002961A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779BA784299F8755002961A4 /* Assets.xcassets */; };
 		779BA788299F8755002961A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779BA787299F8755002961A4 /* Preview Assets.xcassets */; };
+		779BA78F299F8781002961A4 /* CurrentTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA78E299F8781002961A4 /* CurrentTemp.swift */; };
+		779BA791299F87A1002961A4 /* FiveDaysTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA790299F87A1002961A4 /* FiveDaysTemp.swift */; };
+		779BA793299F87B0002961A4 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA792299F87B0002961A4 /* Weather.swift */; };
+		779BA795299F87BE002961A4 /* HourWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA794299F87BE002961A4 /* HourWeather.swift */; };
+		779BA797299F87D1002961A4 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779BA796299F87D1002961A4 /* WeatherService.swift */; };
+		779BA799299F8869002961A4 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 779BA798299F8869002961A4 /* APIKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		779BA782299F8753002961A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		779BA784299F8755002961A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		779BA787299F8755002961A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		779BA78E299F8781002961A4 /* CurrentTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTemp.swift; sourceTree = "<group>"; };
+		779BA790299F87A1002961A4 /* FiveDaysTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDaysTemp.swift; sourceTree = "<group>"; };
+		779BA792299F87B0002961A4 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		779BA794299F87BE002961A4 /* HourWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourWeather.swift; sourceTree = "<group>"; };
+		779BA796299F87D1002961A4 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		779BA798299F8869002961A4 /* APIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				779BA780299F8753002961A4 /* WeatherAppApp.swift */,
 				779BA782299F8753002961A4 /* ContentView.swift */,
+				779BA790299F87A1002961A4 /* FiveDaysTemp.swift */,
+				779BA792299F87B0002961A4 /* Weather.swift */,
+				779BA794299F87BE002961A4 /* HourWeather.swift */,
+				779BA796299F87D1002961A4 /* WeatherService.swift */,
+				779BA78E299F8781002961A4 /* CurrentTemp.swift */,
+				779BA798299F8869002961A4 /* APIKeys.plist */,
 				779BA784299F8755002961A4 /* Assets.xcassets */,
 				779BA786299F8755002961A4 /* Preview Content */,
 			);
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779BA799299F8869002961A4 /* APIKeys.plist in Resources */,
 				779BA788299F8755002961A4 /* Preview Assets.xcassets in Resources */,
 				779BA785299F8755002961A4 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +158,11 @@
 			files = (
 				779BA783299F8753002961A4 /* ContentView.swift in Sources */,
 				779BA781299F8753002961A4 /* WeatherAppApp.swift in Sources */,
+				779BA795299F87BE002961A4 /* HourWeather.swift in Sources */,
+				779BA791299F87A1002961A4 /* FiveDaysTemp.swift in Sources */,
+				779BA78F299F8781002961A4 /* CurrentTemp.swift in Sources */,
+				779BA793299F87B0002961A4 /* Weather.swift in Sources */,
+				779BA797299F87D1002961A4 /* WeatherService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

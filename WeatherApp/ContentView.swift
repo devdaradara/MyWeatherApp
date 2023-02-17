@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selection = 1
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView(selection: $selection) {
+            CurrentTemp()
+                .tabItem {
+                    Image(systemName: "sun.and.horizon.circle")
+                    Text("Current")
+                }.tag(1)
+            
+            FiveDaysTemp()
+                .tabItem {
+                    Image(systemName: "calendar.circle.fill")
+                    Text("Current")
+                }.tag(1)
+            
+            Text("3")
+                .tabItem {
+                    Image(systemName: "map.circle.fill")
+                    Text("Map")
+                }.tag(1)
         }
-        .padding()
+        .onAppear() {
+            UITabBar.appearance().barTintColor = .white
+        }
+        .accentColor(.red)
     }
 }
 
@@ -24,3 +43,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
